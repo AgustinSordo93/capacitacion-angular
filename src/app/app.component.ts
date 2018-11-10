@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { ClienteService } from '../../src/app/services/cliente.services';
+import { Cliente } from './models/cliente';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +8,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Project';
+  title = 'front';
+
+  constructor(
+  ) {}
+
+  ngOnInit() {
+
+    }
+  
 }

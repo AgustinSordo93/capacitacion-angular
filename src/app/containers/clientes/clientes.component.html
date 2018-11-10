@@ -1,0 +1,10 @@
+<cliente-form
+    [cliente]="cliente"
+    (aceptar)="aceptar($event)"
+    (cancelar)="cancelar()"
+  ></cliente-form>
+    <cliente-lista
+      [clientes]= "clientes"
+      (modificar)="modificar($event)"
+      (borrar)="borrar($event)"
+    ></cliente-lista>
